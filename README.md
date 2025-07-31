@@ -1,30 +1,44 @@
 # 🔍 Multi Scan
 
-**Multi Scan** is an advanced Nmap-based network scanner with a user-friendly interactive menu in the terminal. Written in Bash, it offers over 25+ powerful scanning options—from basic ping scans to vulnerability assessments and firewall evasion techniques.
+**Multi Scan** An intelligent, terminal-based network reconnaissance tool powered by Nmap and wrapped in a sleek, user-friendly Bash interface. Whether you're a penetration tester, bug bounty hunter, or network analyst — this tool puts over 25+ powerful scanning modules at your fingertips with ease.
 
 ---
 
 ## 🚀 Features
 
-- ✅ Interactive command-line UI with animated headers
-- ✅ Dependency auto-check & install (`nmap`, `figlet`)
-- ✅ 25+ Scan Options:
-  - Ping, TCP SYN, UDP, OS Detection, Version Detection
-  - Aggressive Scan, Top Ports, All Ports, Firewall Evasion
-  - Vulnerability Scan using Nmap scripts
-  - DNS Brute, HTTP/FTP/SMB Enumeration
-  - Whois Lookup, WAF Detection, MAC Spoofing
-  - Export scan output to files
-- ✅ Safe script execution & user prompt handling
-- ✅ Designed with security researchers & bug bounty hunters in mind
+✅ Modern Interactive CLI with animated banners and easy navigation
+
+✅ Auto-checks and installs required tools (nmap, figlet) on first run
+
+✅ 25+ Scanning Options, including:
+
+🔍 Basic Scans – Ping Sweep, Port Scan (TCP/UDP), OS Detection, Version Detection
+
+💣 Aggressive & Deep Scans – Top Ports, Full Port Range, Stealth & Firewall Evasion
+
+🛠️ Vulnerability Assessment – Uses built-in Nmap Scripting Engine (NSE)
+
+🌐 Recon Modules – DNS Brute Force, WHOIS Lookup, WAF Detection, MAC Spoofing
+
+📡 Service Enumeration – HTTP/HTTPS, FTP, SMB, and more
+
+💾 Output Export – Save scan results in structured formats
+
+✅ Safe-by-default Execution with user prompts to avoid accidental aggressive scans
+
+✅ Crafted for cybersecurity professionals who need fast, flexible scanning workflows
+
+✅ Lightweight, portable, and designed for Linux terminal warriors
 
 ---
 
 ## 📦 Requirements
 
-- `nmap`
-- `figlet`
-- Linux-based OS (Tested on Kali, Ubuntu)
+nmap – Network scanning engine
+
+figlet – For stylized banner headers
+
+🐧 Linux-based OS – Fully tested on Kali Linux & Ubuntu (compatible with others)
 
 ---
 
